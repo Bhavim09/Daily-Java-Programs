@@ -1,7 +1,7 @@
 enum check
 {
   MONDAY(1),
-  TUESDAY(2),
+  TUESDAY(2),   
   WEDNESDAY(3);
   
   public int x;
@@ -16,5 +16,6 @@ enum check
 public class EnumPract {
     public static void main(String[] args) {
         System.out.println(check.TUESDAY);
+        System.out.println(check.MONDAY.x);
     }
 }
